@@ -1,34 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Ping coming soon page</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
+    <script
+      src="https://kit.fontawesome.com/4274d2b2e7.js"
+      crossorigin="anonymous"
+    ></script>
 
-  We are launching soon!
+    <link rel="stylesheet" href="./style.css" />
+    <title>Frontend Mentor | Ping coming soon page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-area"></div>
+      <div class="hero-area">
+        <h1 class="title">We are launching <span class="highlight">soon!</span></h1>
+        <p class="copy">Subscribe and get notified</p>
+      </div>
 
-  Subscribe and get notified
+      <div class="form-area">
+        <form action="" id="form">
+          <div class="form-control">
+            <input type="email" id="email" placeholder="Your email address..." />
+            <small class="error-message"></small>
+          </div>
 
-  Notify Me
+          <button class="notify-btn">Notify Me</button>
+        </form>
+      </div>
 
-  &copy; Copyright Ping. All rights reserved.
+      <div class="dashboard-area">
+        <img src="./images/illustration-dashboard.png" alt="dashboard" />
+      </div>
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+      <div class="social-area">
+        <div class="share-socials">
+          <div class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </div>
+          <div class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </div>
+          <div class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+        </div>
+        <div class="copyright">
+          <p class="copyright-text">
+            Notify Me &copy; Copyright Ping. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Xavi Guasch</a>.
+      </p>
+    </footer>
+
+    <script src="./index.js"></script>
+  </body>
 </html>

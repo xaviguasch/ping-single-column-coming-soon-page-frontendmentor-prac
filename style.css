@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom properties */
+
+:root {
+  --ff-libre: 'Libre Franklin', sans-serif;
+
+  --fw-light: 300;
+  --fw-semi-bold: 600;
+  --fw-bold: 700;
+
+  --fs-10: 0.625rem;
+  --fs-12: 0.75rem;
+  --fs-14: 0.875rem;
+  --fs-16: 1rem;
+  --fs-18: 1.125rem;
+  --fs-20: 1.25rem;
+  --fs-24: 1.5rem;
+  --fs-28: 1.75rem;
+  --fs-32: 2rem;
+  --fs-36: 2.25rem;
+  --fs-40: 2.5rem;
+  --fs-64: 4rem;
+
+  --clr-blue: hsl(223, 87%, 63%);
+  --clr-pale-blue: hsl(223, 100%, 88%);
+  --clr-light-red: hsl(354, 100%, 66%);
+  --clr-gray: hsl(0, 0%, 59%);
+  --clr-very-dark-blue: hsl(209, 33%, 12%);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: var(--ff-libre);
+  font-size: var(--fs-16);
+  margin: 0;
+  font-weight: var(--fw-light);
+  line-height: 1.6;
+  color: var(--clr-very-dark-blue);
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Typography */
+
+/* Utility styles */
+
+.container {
+  /* height: 100%;
+  margin: 0 auto;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center; */
+}
+
+/* SECTIONS */
+
+/* Footer */
+
+.footer {
+  /* padding: 0.75em 0;
+  color: var(--clr-dark-blue); */
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
