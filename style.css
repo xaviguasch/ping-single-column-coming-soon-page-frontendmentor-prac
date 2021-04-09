@@ -47,12 +47,12 @@ body {
 }
 
 body {
+  color: var(--clr-very-dark-blue);
   font-family: var(--ff-libre);
   font-size: var(--fs-16);
-  margin: 0;
   font-weight: var(--fw-light);
   line-height: 1.6;
-  color: var(--clr-very-dark-blue);
+  margin: 0;
   text-align: center;
 }
 
@@ -62,14 +62,14 @@ img {
 
 /* Typography */
 .title {
+  color: var(--clr-gray);
   font-size: var(--fs-22);
   font-weight: var(--fw-light);
-  color: var(--clr-gray);
 }
 
 .highlight {
-  font-weight: var(--fw-bold);
   color: var(--clr-very-dark-blue);
+  font-weight: var(--fw-bold);
 }
 
 .copy {
@@ -131,17 +131,17 @@ img {
 }
 
 .form-area {
+  height: 130px;
   margin-top: 2em;
   width: 100%;
-  height: 130px;
 }
 
 .error-message {
-  font-weight: var(--fw-semi-bold);
   display: block;
+  font-weight: var(--fw-semi-bold);
   margin: 0.5em auto 1.5em;
-  width: 100%;
   opacity: 0;
+  width: 100%;
 }
 
 .error.form-control > .error-message {
@@ -158,18 +158,18 @@ img {
 
 .email-input,
 .notify-btn {
-  width: 90%;
   border-radius: 2em;
-  padding: 0.8em 1.2em;
   outline: none;
+  padding: 0.8em 1.2em;
+  width: 90%;
 }
 
 .email-input {
   border: 1px solid var(--clr-pale-blue);
 }
 .notify-btn {
-  border: none;
   background-color: var(--clr-blue);
+  border: none;
   box-shadow: 1px 4px 10px 2px hsla(223, 87%, 63%, 0.2);
   margin-bottom: 0.75em;
 }
@@ -200,19 +200,19 @@ img {
 }
 
 .social-icon-btn {
-  cursor: pointer;
   background: transparent;
+  border: 0.5px solid var(--clr-pale-blue);
+  border-radius: 50%;
   color: var(--clr-blue);
+  cursor: pointer;
   padding: 0.5em 0;
   width: 30px;
-  border-radius: 50%;
-  border: 0.5px solid var(--clr-pale-blue);
 }
 
 .social-icon-btn:focus,
 .social-icon-btn:hover {
-  color: var(--clr-white);
   background-color: var(--clr-blue);
+  color: var(--clr-white);
 }
 
 .social-icon-btn:active {
@@ -226,8 +226,8 @@ img {
 /* Footer */
 
 .footer {
-  padding: 0.75em 0;
   color: var(--clr-dark-blue);
+  padding: 0.75em 0;
 }
 
 .attribution {
@@ -258,9 +258,9 @@ img {
   }
 
   .form-area {
+    height: 130px;
     margin-top: 2em;
     width: 100%;
-    height: 130px;
   }
 
   .form {
@@ -278,8 +278,8 @@ img {
 
   .error.form-control > .error-message {
     display: block;
-    text-align: left;
     padding-left: 2em;
+    text-align: left;
   }
 
   ::placeholder {
@@ -288,8 +288,8 @@ img {
 
   .email-input,
   .notify-btn {
-    font-size: var(--fs-14);
     border-radius: 2em;
+    font-size: var(--fs-14);
     padding: 1em 1.5em;
   }
 
@@ -297,8 +297,8 @@ img {
     width: 100%;
   }
   .notify-btn {
-    width: 35%;
     align-self: flex-start;
+    width: 35%;
   }
 
   .dashboard-area {
@@ -320,7 +320,6 @@ img {
 
 @media (min-width: 850px) {
   .container {
-    max-width: 80%;
     max-width: 635px;
   }
 }
